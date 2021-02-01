@@ -6,5 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'ui_container';
+  title = 'ui_container'
+
+
+  
+  sentiment: string;
+
+  handleClick() {
+console.log('Clic on Predict' + this.sentiment)
+}
 }
