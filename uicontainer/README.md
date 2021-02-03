@@ -1,6 +1,12 @@
-ng build --prod
-docker build -t angular-app .
-docker run -it --rm -p 9000:80 angular-app
+ 1068  docker ps
+ 1069  ng build --prod
+ 1070  docker stop 41343af34b07
+ 1071  docker ps
+ 1072  docker build -t jboubaker/ui_container .
+ 1073  docker run -d -p 8089:80 jboubaker/ui_container
+ 1074  docker ps
+
+I hate Brokeback Mountain 
 
 # Uicontainer
 

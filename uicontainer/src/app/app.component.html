@@ -333,15 +333,14 @@
   </div>
 
 
-  <h2>Sentiment</h2>
+  <h2>Sentiment</h2>You can try with these examples : I hate Brokeback Mountain and I love Brokeback Mountain
   <textarea  [rows]="5" [cols]="150" pInputTextarea  [(ngModel)]="sentiment"> </textarea>
  <!--  <span class="p-ml-2">{{sentiment}}</span>-->
 <span><br></span>
   <p-button label="Predict" (onClick)="handleClick()"></p-button>
-  <h2>Result</h2>
-  <textarea [rows]="5" [cols]="150" pInputTextarea autoResize="autoResize"></textarea>
+  <h2><span class="p-ml-2">{{strpredictionResult}}</span></h2>
 
-
+  
   
 
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
